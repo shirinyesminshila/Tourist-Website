@@ -1,0 +1,125 @@
+
+    
+ /* Basic design */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* hero section design */
+
+ .hero-section{
+    margin-top: 80px;
+ }
+
+ .hero-img{
+    display: flex;
+  
+   justify-content: space-around;
+}
+
+.hero-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+   
+    border: 5px solid #fff;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.hero-title h2{
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-title h3{
+    color: hsl(80, 94%, 54%);
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-title p{
+    
+    color: #000000;
+    font-size: 16px;
+   margin-left: 80px;
+    width: 60%;
+}
+
+/*   <!-- popular destination section --> */
+
+.populer-section{
+    margin-top: 80px;
+}
+.popular-para{
+    margin-top: 50px;
+}
+
+.popular-image img{
+   border-bottom-right-radius: 70px;
+  border-top-left-radius: 70px;
+}
+
+    /*  vetrov travel agency */
+
+    .vetrov-travel-section{
+        margin-top: 80px;
+    }
+
+
+    /*  */
+
+    .atest-blog-section{
+        margin-top: 80px;
+    }
+
+
+/* footer */
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+
+.font-icon{
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+
+.font-icon i{
+    border-radius: 30%;
+    border: 1px solid white;
+    background-color: rgb(73, 182, 73);
+    padding: 10px;
+}
+
+
+.font-icon i:hover{
+    background-color: white;
+    color: #000;
+  
+}
